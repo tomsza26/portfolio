@@ -1,1 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap&subset=latin-ext');
+$yellow: #ffb700;
+$font1: 'Noto Sans', sans-serif;
 
+* {
+}
+
+body {
+}
+
+header {
+	background: #24221f;
+
+	#headerIn {
+		height: 85vh;
+		max-width: 2000px;
+		margin: 0 auto 0 auto;
+
+		#headerContent {
+			height: 100%;
+			margin-left: auto;
+
+			#leftContainer {
+				width: 50%;
+				float: left;
+				display: grid;
+				height: 100%;
+
+				a {
+					margin: auto;
+
+					svg {
+						cursor: pointer;
+						transition: 0.3s;
+					}
+
+					svg:hover {
+						opacity: 0.6;
+					}
+				}
+			}
+
+			#nameContainer {
+				width: 50%;
+				float: right;
+				display: grid;
+				height: 100%;
+
+				#name,
+				#frontWeb {
+					font-family: $font1;
+					font-weight: 900;
+					color: $yellow;
+					font-size: 60px;
+				}
+
+				#name {
+					display: flex;
+					justify-content: flex-end;
+					flex-direction: column;
+				}
+
+				#frontWeb {
+					color: #edeae1;
+					font-size: 30px;
+					width: 622.65px;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
