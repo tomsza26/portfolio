@@ -1,0 +1,58 @@
+[
+	{
+		"name": "Personal Trainer Site",
+		"image": "/IMG.jpg",
+		"linkLive": "",
+		"linkCode": "",
+		"techUsed": [ "React.js", "HTML5", "SASS" ],
+		"overwiew": [ "My first commercial project. Designed and maked by me." ]
+	},
+	{
+		"name": "Portfolio",
+		"image": "/IMG.jpg",
+		"linkLive": "",
+		"linkCode": "",
+		"techUsed": [ "React.js", "HTML5", "SASS", "particles.js" ],
+		"overwiew": [ "This site." ]
+	},
+	{
+		"name": "Calculator",
+		"image": "/IMG.jpg",
+		"linkLive": "https://tomsza26.github.io/fcc-Calculator/",
+		"linkCode": "https://github.com/tomsza26/fcc-Calculator",
+		"techUsed": [ "React.js", "HTML5", "SASS", "Math.js" ],
+		"overwiew": [
+			"It's a simple, responsive javascript calculator. I builded it with React.js and Math.js. In this challenge, I had the biggest problem with user input. I had to catch all possible inputs and adjust algorithm to work well with them."
+		]
+	},
+	{
+		"name": "Pomodoro-Clock",
+		"image": "/IMG.jpg",
+		"linkLive": "https://tomsza26.github.io/fcc-Pomodoro-Clock/",
+		"linkCode": "https://github.com/tomsza26/fcc-Pomodoro-Clock",
+		"techUsed": [ "React.js", "HTML5", "SASS" ],
+		"overwiew": [
+			"A Clock which will help you to organise your working routine. This method is known all over the world. How it works? Firstly, you need to choose your break-time length and work-time length. Then you just need to start. You have four working sessions and four intervals. Last interval duration is 30 minutes. This whole process is called 'Pomodoro'. After last pause, you can start again."
+		]
+	},
+	{
+		"name": "Drum-Machine",
+		"image": "/IMG.jpg",
+		"linkLive": "https://tomsza26.github.io/fcc-Drum_Machine/",
+		"linkCode": "https://github.com/tomsza26/fcc-Drum_Machine",
+		"techUsed": [ "React.js", "HTML5", "SASS" ],
+		"overwiew": [
+			"I did it as one of my ending projects at freeCodeCamp 'Front End Libraries' course. Builded on React.js, aplication plays sounds on key press, or on mouse press and displays sounds name. Volume of sounds can be changed. You can also disable aplication."
+		]
+	},
+	{
+		"name": "Quotes Machine",
+		"image": "/IMG.jpg",
+		"linkLive": "https://tomsza26.github.io/fcc-Quotes_Machine/",
+		"linkCode": "https://github.com/tomsza26/fcc-Quotes_Machine",
+		"techUsed": [ "React.js", "HTML5", "SASS" ],
+		"overwiew": [
+			"Fully responsive quotes machine. I used quotes from one of my favorite games series: Call of Duty. Quotes are loaded from JSON file and displayed, one by one. Quotes can be shared on Twitter, thanks to QuickShare button."
+		]
+	}
+]
