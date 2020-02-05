@@ -2,21 +2,12 @@ import React from 'react';
 import '../App.scss';
 import projects from './projects.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faReact, faJs, faGitAlt, faSass } from '@fortawesome/free-brands-svg-icons';
 import { faDesktop, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
 
 class Main extends React.Component {
 	render() {
 		return (
 			<main>
-				<section id="iconContainer">
-					<FontAwesomeIcon icon={faHtml5} size="4x" color="#e34d26" />
-					<FontAwesomeIcon icon={faCss3Alt} size="4x" color="#0070bb" />
-					<FontAwesomeIcon icon={faReact} size="4x" color="#61d9fa" />
-					<FontAwesomeIcon icon={faJs} size="4x" color="#f7df1e" />
-					<FontAwesomeIcon icon={faGitAlt} size="4x" color="#f05133" />
-					<FontAwesomeIcon icon={faSass} size="4x" color="#cc6699" />
-				</section>
 				<article id="projects">
 					<header>Projects</header>
 					{projects.map((data, index) => {
@@ -27,8 +18,8 @@ class Main extends React.Component {
 									<img
 										src={require('../images' + data.image)}
 										alt="img"
-										width="300px"
-										height="200px"
+										width="350px"
+										height="220px"
 									/>
 									<div className="links">
 										<a href={data.linkLive} target="_blank" rel="noopener noreferrer">

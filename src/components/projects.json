@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "Portfolio",
-		"image": "/IMG.jpg",
+		"image": "/portfolio.png",
 		"linkLive": "",
 		"linkCode": "",
 		"techUsed": [ "React.js", "HTML5", "SASS", "particles.js" ],
@@ -17,7 +17,7 @@
 	},
 	{
 		"name": "Calculator",
-		"image": "/IMG.jpg",
+		"image": "/calculator.gif",
 		"linkLive": "https://tomsza26.github.io/fcc-Calculator/",
 		"linkCode": "https://github.com/tomsza26/fcc-Calculator",
 		"techUsed": [ "React.js", "HTML5", "SASS", "Math.js" ],
@@ -27,7 +27,7 @@
 	},
 	{
 		"name": "Pomodoro-Clock",
-		"image": "/IMG.jpg",
+		"image": "/pomodoro.gif",
 		"linkLive": "https://tomsza26.github.io/fcc-Pomodoro-Clock/",
 		"linkCode": "https://github.com/tomsza26/fcc-Pomodoro-Clock",
 		"techUsed": [ "React.js", "HTML5", "SASS" ],
@@ -37,7 +37,7 @@
 	},
 	{
 		"name": "Drum-Machine",
-		"image": "/IMG.jpg",
+		"image": "/drum.gif",
 		"linkLive": "https://tomsza26.github.io/fcc-Drum_Machine/",
 		"linkCode": "https://github.com/tomsza26/fcc-Drum_Machine",
 		"techUsed": [ "React.js", "HTML5", "SASS" ],
@@ -47,7 +47,7 @@
 	},
 	{
 		"name": "Quotes Machine",
-		"image": "/IMG.jpg",
+		"image": "/quotes.gif",
 		"linkLive": "https://tomsza26.github.io/fcc-Quotes_Machine/",
 		"linkCode": "https://github.com/tomsza26/fcc-Quotes_Machine",
 		"techUsed": [ "React.js", "HTML5", "SASS" ],
