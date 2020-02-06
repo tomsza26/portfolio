@@ -2,7 +2,7 @@
 	{
 		"name": "Portfolio",
 		"image": "/portfolio.png",
-		"linkLive": "https://tomsza26.github.io/portfolio",
+		"linkLive": "https://tomsza26.github.io/portfolio/",
 		"linkCode": "https://github.com/tomsza26/portfolio",
 		"techUsed": [ "React.js", "HTML5", "SASS", "particles.js" ],
 		"overwiew": [ "This site." ]
