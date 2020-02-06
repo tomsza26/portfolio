@@ -1,13 +1,5 @@
 [
 	{
-		"name": "Personal Trainer Site",
-		"image": "/IMG.jpg",
-		"linkLive": "",
-		"linkCode": "",
-		"techUsed": [ "React.js", "HTML5", "SASS" ],
-		"overwiew": [ "My first commercial project. Designed and maked by me." ]
-	},
-	{
 		"name": "Portfolio",
 		"image": "/portfolio.png",
 		"linkLive": "",

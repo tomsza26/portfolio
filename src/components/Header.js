@@ -10,12 +10,16 @@ import { faHtml5, faCss3Alt, faReact, faJs, faGitAlt, faSass } from '@fortawesom
 const particleOpt = particles;
 
 class Header extends React.Component {
+	Clicked = () => {
+		document.querySelector('#arrow-down').scrollIntoView({
+			behavior: 'smooth'
+		});
+	};
 	render() {
 		return (
 			<header id="start">
 				<Particles params={particleOpt} />
 				<div id="headerIn">
-					<nav />
 					<div id="headerContent">
 						<div id="leftContainer">
 							<a href="https://github.com/tomsza26" target="_blank" rel="noopener noreferrer">
@@ -54,6 +58,10 @@ class Header extends React.Component {
 					<FontAwesomeIcon icon={faGitAlt} size="4x" color="#f05133" />
 					<FontAwesomeIcon icon={faSass} size="4x" color="#cc6699" />
 				</section>
+				<div id="arrow-down" onClick={this.Clicked}>
+					<div className="arrow arrow-first" />
+					<div className="arrow arrow-second" />
+				</div>
 			</header>
 		);
 	}

@@ -3,6 +3,10 @@ import '../App.scss';
 import projects from './projects.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDesktop, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 class Main extends React.Component {
 	render() {
@@ -12,30 +16,35 @@ class Main extends React.Component {
 					<header>Projects</header>
 					{projects.map((data, index) => {
 						return (
-							<section key={index}>
+							<section key={index} data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
 								<div className="leftSide">
 									<header>{data.name}</header>
-									<img
-										src={require('../images' + data.image)}
-										alt="img"
-										width="350px"
-										height="220px"
-									/>
-									<div className="links">
-										<a href={data.linkLive} target="_blank" rel="noopener noreferrer">
-											<FontAwesomeIcon icon={faDesktop} size="1x" color="#f05133" /> Live preview
-										</a>
-										<a href={data.linkCode} target="_blank" rel="noopener noreferrer">
-											<FontAwesomeIcon icon={faCodeBranch} size="1x" color="#f05133" /> Source
-											code
-										</a>
+									<div className="imgCont">
+										<img
+											src={require('../images' + data.image)}
+											alt="img"
+											width="350px"
+											height="220px"
+										/>
+										<div className="links">
+											<a href={data.linkLive} target="_blank" rel="noopener noreferrer">
+												<FontAwesomeIcon icon={faDesktop} size="1x" color="#f05133" /> Live
+												preview
+											</a>
+											<a href={data.linkCode} target="_blank" rel="noopener noreferrer">
+												<FontAwesomeIcon icon={faCodeBranch} size="1x" color="#f05133" /> Source
+												code
+											</a>
+										</div>
 									</div>
-									<header>Technologies used</header>
-									<ul>
-										{data.techUsed.map((list, i) => {
-											return <li key={i}>{list}</li>;
-										})}
-									</ul>
+									<div className="techCont">
+										<header>Technologies used</header>
+										<ul>
+											{data.techUsed.map((list, i) => {
+												return <li key={i}>{list}</li>;
+											})}
+										</ul>
+									</div>
 								</div>
 								<div className="rightSide">
 									<header>Overwiew</header>
