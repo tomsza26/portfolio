@@ -568,7 +568,8 @@ footer {
 						img {
 							width: auto;
 							max-width: 100% !important;
-							height: 100% !important;
+							height: auto;
+							max-height: 100% !important;
 						}
 						.links {
 							a {
