@@ -566,9 +566,9 @@ footer {
 				.leftSide {
 					.imgCont {
 						img {
-							width: auto;
+							width: auto !important;
 							max-width: 100% !important;
-							height: auto;
+							height: auto !important;
 							max-height: 100% !important;
 						}
 						.links {
