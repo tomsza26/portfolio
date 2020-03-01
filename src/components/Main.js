@@ -20,12 +20,7 @@ class Main extends React.Component {
 								<div className="leftSide">
 									<header>{data.name}</header>
 									<div className="imgCont">
-										<img
-											src={require('../images' + data.image)}
-											alt="img"
-											width="350px"
-											height="220px"
-										/>
+										<img src={require('../images' + data.image)} alt="imgProject" />
 										<div className="links">
 											<a href={data.linkLive} target="_blank" rel="noopener noreferrer">
 												<FontAwesomeIcon icon={faDesktop} size="1x" color="#f05133" /> Live

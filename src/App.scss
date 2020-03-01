@@ -202,6 +202,8 @@ main {
 				float: left;
 
 				.imgCont {
+					padding-right: 15px;
+
 					.links {
 						a {
 							text-decoration: none;
@@ -216,6 +218,12 @@ main {
 						a:hover {
 							opacity: 0.6;
 						}
+					}
+
+					img {
+						margin: 0 auto;
+						max-width: 100%;
+						max-height: 100%;
 					}
 				}
 
@@ -258,7 +266,7 @@ main {
 		section:first-of-type {
 			.leftSide {
 				header:first-of-type {
-					color: $yellow;
+					color: #4831d4;
 				}
 			}
 		}
@@ -266,7 +274,7 @@ main {
 		section:nth-of-type(2) {
 			.leftSide {
 				header:first-of-type {
-					color: #4e3bff;
+					color: $yellow;
 				}
 			}
 		}
@@ -274,7 +282,7 @@ main {
 		section:nth-of-type(3) {
 			.leftSide {
 				header:first-of-type {
-					color: #f33;
+					color: #4e3bff;
 				}
 			}
 		}
@@ -282,12 +290,20 @@ main {
 		section:nth-of-type(4) {
 			.leftSide {
 				header:first-of-type {
-					color: #fc6603;
+					color: #f33;
 				}
 			}
 		}
 
 		section:nth-of-type(5) {
+			.leftSide {
+				header:first-of-type {
+					color: #fc6603;
+				}
+			}
+		}
+
+		section:nth-of-type(6) {
 			.leftSide {
 				header:first-of-type {
 					color: #e3aa84;
@@ -507,6 +523,10 @@ footer {
 						display: inline-block;
 					}
 
+					.imgCont {
+						padding-right: 0;
+					}
+
 					.techCont {
 						vertical-align: top;
 						padding-left: 10px;
@@ -585,13 +605,11 @@ footer {
 	footer {
 		#contactBorder {
 			form {
-				input[type=email] {
-					width: 100%;
-					margin: 0 auto 15px auto;
-				}
+				input[type=email],
 				input[type=text] {
 					width: 100%;
 					margin: 0 auto 15px auto;
+					flex: 1 0 90%;
 				}
 			}
 		}
