@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5aded7c2.chunk.css",
-    "main.js": "/portfolio/static/js/main.067d3abd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.067d3abd.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.e9512adf.chunk.css",
+    "main.js": "/portfolio/static/js/main.2268fc93.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2268fc93.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
     "static/css/2.7abef457.chunk.css": "/portfolio/static/css/2.7abef457.chunk.css",
     "static/js/2.f5d414bb.chunk.js": "/portfolio/static/js/2.f5d414bb.chunk.js",
     "static/js/2.f5d414bb.chunk.js.map": "/portfolio/static/js/2.f5d414bb.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.395a95d36e9f56472a0d64260c42029b.js": "/portfolio/precache-manifest.395a95d36e9f56472a0d64260c42029b.js",
+    "precache-manifest.a5266d1c42e83141d6d79ed3d2d58a2b.js": "/portfolio/precache-manifest.a5266d1c42e83141d6d79ed3d2d58a2b.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.7abef457.chunk.css.map": "/portfolio/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.5aded7c2.chunk.css.map": "/portfolio/static/css/main.5aded7c2.chunk.css.map",
+    "static/css/main.e9512adf.chunk.css.map": "/portfolio/static/css/main.e9512adf.chunk.css.map",
     "static/js/2.f5d414bb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f5d414bb.chunk.js.LICENSE.txt",
     "static/media/calculator.gif": "/portfolio/static/media/calculator.31f549b4.gif",
     "static/media/drum.gif": "/portfolio/static/media/drum.24055dc0.gif",
     "static/media/ep_naturalblack.png": "/portfolio/static/media/ep_naturalblack.23e2b6cf.png",
     "static/media/pomodoro.gif": "/portfolio/static/media/pomodoro.0b1d5485.gif",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.cc3fe51b.png",
-    "static/media/quotes.gif": "/portfolio/static/media/quotes.646405d1.gif"
+    "static/media/quotes.gif": "/portfolio/static/media/quotes.646405d1.gif",
+    "static/media/tymek-nowak.gif": "/portfolio/static/media/tymek-nowak.6f38ad0d.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.44087e9b.js",
     "static/css/2.7abef457.chunk.css",
     "static/js/2.f5d414bb.chunk.js",
-    "static/css/main.5aded7c2.chunk.css",
-    "static/js/main.067d3abd.chunk.js"
+    "static/css/main.e9512adf.chunk.css",
+    "static/js/main.2268fc93.chunk.js"
   ]
 }
